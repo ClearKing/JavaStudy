@@ -19,3 +19,10 @@ orm会按照预定好的方式对数据id经行复制, 手动设置了id
 修改权限
 chmod +x *.sh
 ```
+
+##### 5. mysql sudo service mysqld start
+报错 Starting MySQL. ERROR! The server quit without updating PID file (/data/mysql/iZwz99ct64q02j79se7xnkZ.pid).
+```
+ ps -ef|grep mysql
+ kill pid
+```
