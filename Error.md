@@ -13,3 +13,9 @@ code: config.configure("resources/hibernate.cfg.xml");
 ```
 orm会按照预定好的方式对数据id经行复制, 手动设置了id
 ```
+
+##### 4. Linux tomcat启动 Cannot find ./catalina.sh
+```
+修改权限
+chmod +x *.sh
+```
